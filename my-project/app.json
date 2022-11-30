@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Metaflix",
+    "slug": "metaflix",
+    "version": "3.0.0",
+    "orientation": "default",
+    "icon": "./assets/logo1.png",
+    "splash": {
+      "image": "./assets/logo1.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ]
+    ],
+    "android": {
+      
+      "package": "com.musalimurat.metaflix",
+      "versionCode": 3
+    },
+    "web": {
+      "favicon": "./assets/logo1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3de6bc3f-415a-4b81-ba45-4e0caa2a2316"
+      }
+    }
+  }
+}

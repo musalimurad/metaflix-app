@@ -1,5 +1,5 @@
 {
-  "name": "metaflix_v",
+  "name": "my-project",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -9,10 +9,14 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/netinfo": "^9.3.6",
     "expo": "~47.0.3",
+    "expo-screen-orientation": "~5.0.1",
+    "expo-splash-screen": "^0.17.5",
     "expo-status-bar": "~1.4.2",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-webview": "11.23.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
